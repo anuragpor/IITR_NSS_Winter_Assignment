@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-col: #fff;
+    color: #555;
+    font-family: 'Lato','Arial', sans-serif;
+    font-weight :300;
+    font-size: 20px;
+}
+
+.row {
+   
+     width: 1140px;
+     margin:0 auto 0 auto;
+    
+    
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.29),rgba(0, 0, 0, 0.29)),url(img/james-thomson-building.jpg);  /* It is same overlapping to image*/
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+
+
+
+
+
+h1{
+    margin:0;
+    color: #fff;
+    font-weight: 400;
+    font-size:100%;
+    text-transform: uppercase;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+.hero-text-box{
+    position: absolute;
+    width:940px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%); /*translate half of the of its weight and its height left and up*/
+}
+
+.btn:visited,
+.btn:link{
+    display:inline-block;
+    padding: 10px 30px;
+    font-weight:400;
+    text-decoration: none;
+    border-radius: 200px;
+    color:#ffffff;
+    transition: background-color 0.5s,border 0.5s,color 0.5 s;
+    margin-right: 10px;
+}
+
+.btn-full:visited,
+.btn-full:link{
+    background-color: #f40d0d;
+    border: 2px solid #f40d0d;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    color:#f40d0d; 
+    border:2px solid #e67e22;
+    border-color: #f40d0d;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #de1c1c;
+    border-color:#de1c1c;
+}
+.btn-ghost:active,
+.btn-ghost:hover{
+    color:#fff;
+    border:2px solid #de1c1c;
+}
+
+.logo{
+   height:150px;
+    width: auto;
+    padding-top: 10px;
+    
+}
+.logo2{
+    height:125px;
+    width
+}
+
+.main-nav{
+    float:right;
+    list-style:none;
+}
+
+.main-nav li{
+    display: inline-block;
+    
+    margin-left: 20px;
+    
+    
+}
+
+.change_color:link,
+.change_color:visited{
+     color:#fff;
+    text-decoration:none;
+    border-bottom: none;
+    font-size:90%;
+    transition: border 0.2s ;
+    font-weight: 300;
+    padding: 10px 10px;
+    font-size: 105%
+    
+}
+
+.change_color:active,
+.change_color:hover{
+    border-bottom: 2px solid #de1c1c;
+}
+
+.add_icon:before {
+    content: ' \2055';
+}
+section{
+    padding:80px 0;
+}
+h2{
+    text-align: center;
+    word-spacing: 2px;
+    padding: 10px 0;
+    font-size: 180%;
+    font-weight:500;
+    
+    
+}
+h2:after{
+    display: block;
+    height:2px;
+    background-color:#f40d0d ;
+    content:" ";
+    width:100px;
+    margin: 0 auto; 
+    margin-top: 30px;
+}
+
+.long-copy{
+    line-height:145%;
+    width:70%;
+    margin-left:15%;
+    font-weight:400;
+}
+
+.benefits h3{
+    
+}
+
+.box{
+    padding:1%
+}
+h3{
+    font-size: 110 %;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+.box p{
+    font-weight: 400;
+    font-size: 80%;
+    line-height: 145%;
+}
+
+.bdc-images{
+    list-style: none;
+    width:100%;
+    
+}
+.bdc-images li{
+    float:left;
+    width:25%;
+    height:45%;
+    background-color: #000;
+    overflow: hidden; 
+    
+}
+
+.img1{
+    width: 100%;
+    margin: 0;
+}
+
+.img1 img{
+    width:100%;  
+    heigth:auto;
+    opacity:70%;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+    
+}
+
+.img1 img:hover{
+    opacity: 100%;
+    transform: scale(1.5);  
+}
+
+.section-features .long-copy{
+    margin-bottom: 30px;
+}
+
+.how-it-works{
+    background-color: #efecec;
+}
+.steps-box{
+    margin-bottom: 3%;
+    border-bottom: none;
+    
+}
+
+.blood-donor{
+    
+    width: 100%;
+    margin-top: 20%;
+    height: 60%;
+    border-radius:10%;
+    border:2px solid red;
+    
+}
+
+.works-step{
+    margin-top: 30px;
+    font-weight: 400;
+}
+.works-step:first-child{
+    margin-top: 15%;
+}
+
+.works-step:last-of-type{
+    margin-bottom: 5%;
+}
+.btn-app img
+.btn-app img{
+    margin-left: 19px;
+    height: 60px;
+    width: auto;
+
+}
+.btn-app:link,
+.btn-app:visited{
+    border: none;
+}
+.works-step div{
+    color: #f40d0d;
+    border: 3px solid #f40d0d;
+    width: 7%;
+    border-radius: 50%;
+    height:70px;
+    width:70px;
+    text-align: center;
+    font-size: 60px;    
+    float:left;
+    margin-right:10px;
+}
+
+.works-step{
+    padding:3%;
+    
+}
+.places{
+    width: 110%;
+    background-color: #000;
+    opacity:1;
+    margin-bottom: 15px;
+    
+}
+
+
+.box{
+    font-weight: 400;
+}
+.section-cities{
+    background-color: #f7f7f7;
+}
+
+/*------Links-----------*/
+a:link,
+a:visited{
+    color: #e67e22;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #e67e22;
+}
+
+a:hover,
+a:active{
+    color: #555;
+    border-bottom: px solid transparent;
+}
+
+
+.icon-small{
+    color:#e67e22;
+    font-size: 120%;
+    text-align: center;
+    font-size: 130%;
+}
+
+.donors{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.79)) ,url(img/sunset.jpg);
+    background-size: cover;
+    color:#fff;
+    background-attachment: fixed;
+}
+
+blockquote{
+    padding: 5%;
+    font-style: italic;
+   line-height: 145%;
+    margin-top: 5%;
+    position:relative;
+}
+
+blockquote:before{
+    content:"\201C"; 
+    font-size: 500%;
+    display: block;
+    position:absolute;
+    top:1px;
+    left:0px;
+}
+
+cite{ 
+     display: block;
+    font-size: 90%;
+    margin-top: 5%;
+}
+
+cite img{
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.pricing-plans{
+    background-color:#efecec;
+}
+
+.plan-pricing{
+    font-size:300%;
+    margin-bottom: 10px;
+    color:#e67e22;
+    font-weight: 300;
+    
+}
+.plan-box div h3{
+    width:90%;
+    margin:7%;
+    padding-top:3%;
+}
+.plan-pricing span{
+    font-size:30%; 
+}
+
+.plan-box{
+    background-color:#fff;
+    border-radius: 5px;
+    width:90%;
+    margin-left: 5%;
+    
+}
+.plan-box div{
+    background-color: #fffcfc;
+    border-bottom: 1px solid #f2f1f1;
+}
+
+
+.remark{
+    font-size:90%;
+    margin-bottom: 3%;
+}
+
+.button{
+    margin: 3%;
+    text-align: center;
+}
+.plan-box ul{
+list-style: none;
+    background-color: #fafafa;
+  }
+
+.plan-box ul li {
+    padding: 2% 1%;
+}
+i{
+    
+    line-height:150%
+}
+
+.blood{
+    color: red;
+        
+}
+
+.blood h3{
+    display: inline;
+    color: #555;
+}
+.box p{
+    margin-top: 5%;
+}
+
+.working-heading{
+    margin-top: 45%;
+}
