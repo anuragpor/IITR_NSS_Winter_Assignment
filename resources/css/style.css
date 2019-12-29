@@ -87,7 +87,7 @@ h1{
 }
 
 .logo{
-   height:150px;
+   height:30%;
     width: auto;
     padding-top: 10px;
     
@@ -186,7 +186,7 @@ h3{
 .bdc-images li{
     float:left;
     width:25%;
-    height:45%;
+    height:43%;
     background-color: #000;
     overflow: hidden; 
     
@@ -200,7 +200,7 @@ h3{
 .img1 img{
     width:100%;  
     heigth:auto;
-    opacity:70%;
+    opacity:60%;
     transform: scale(1.15);
     transition: transform 0.5s, opacity 0.5s;
     
@@ -313,7 +313,7 @@ a:active{
 }
 
 .donors{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.79)) ,url(img/sunset.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)) ,url(img/sunset.jpg);
     background-size: cover;
     color:#fff;
     background-attachment: fixed;
